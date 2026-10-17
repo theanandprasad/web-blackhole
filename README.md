@@ -2,6 +2,8 @@
 
 A real-time spinning (Kerr) black hole, ray traced from scratch on WebGPU with no engine or rendering library. Every pixel follows a light ray backwards through curved spacetime. It draws the shadow, the lensed accretion disk with its Doppler and gravitational shifts, the photon ring and a lensed starfield. You can orbit it, fly around it, and change its spin while it runs.
 
+**Live demo: https://theanandprasad.github.io/web-blackhole/** (needs a browser with WebGPU)
+
 ![Default view: a = 0.94, seen from 30 M at 86°](docs/hero.jpg)
 
 | Edge-on, 40 M | Close-up, 11 M, 70° field of view |
@@ -14,7 +16,7 @@ A real-time spinning (Kerr) black hole, ray traced from scratch on WebGPU with n
 
 ## Run it
 
-Open `blackhole.html` in a browser with WebGPU (recent Chrome, Edge or Safari). `blackhole.min.html` is the same page minified. Both are single self-contained files that work from `file://`.
+Open the [live demo](https://theanandprasad.github.io/web-blackhole/), or open `blackhole.html` in a browser with WebGPU (recent Chrome, Edge or Safari). `blackhole.min.html` is the same page minified. Both are single self-contained files that work from `file://`.
 
 To run from source:
 
