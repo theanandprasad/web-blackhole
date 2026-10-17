@@ -34,6 +34,9 @@
   #err { position: fixed; inset: 0; display: none; padding: 40px; color: #f88; font: 16px system-ui; white-space: pre-wrap; background: #000; }
   @media (max-width: 600px) { #panel { width: calc(100% - 24px); max-height: 45%; top: auto; bottom: 10px; } #hud .help { display: none; }
     #info { width: auto; right: 12px; font-size: 12px; } }
+  @media (max-height: 640px) { #hud .help { display: none; }
+    #info { width: 290px; max-height: calc(100% - 70px); overflow: auto; padding: 8px 10px; font-size: 11px; line-height: 1.35; }
+    #info b { font-size: 12px; margin-bottom: 4px; } #info p { margin-bottom: 4px; } }
 </style>
 </head>
 <body>
