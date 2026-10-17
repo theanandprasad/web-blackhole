@@ -1,0 +1,13 @@
+{
+  "name": "web-blackhole",
+  "version": "0.1.0",
+  "description": "Real-time WebGPU Kerr black hole: geodesic ray tracing, Novikov-Thorne disk, Doppler beaming.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test/physics.test.mjs",
+    "build": "node build.mjs"
+  }
+}
